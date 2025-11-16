@@ -8,7 +8,7 @@ Original file is located at
 """
 
 # =============================
-# Ecosystem Health Monitoring – Final Stable Version (With About Page)
+# Ecosystem Health Monitoring 
 # =============================
 
 import streamlit as st
@@ -35,7 +35,7 @@ from sklearn.metrics import accuracy_score, classification_report
 # STREAMLIT PAGE CONFIG
 # ----------------------------------------------------
 st.set_page_config(page_title="Ecosystem Health Monitoring", layout="wide")
-st.title("🌿 Ecosystem Health Monitoring Dashboard")
+st.title("🌿 Ecosystem Health Monitoring System")
 
 # ----------------------------------------------------
 # FILE PATHS FOR MODELS
