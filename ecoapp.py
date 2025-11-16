@@ -35,7 +35,7 @@ from sklearn.metrics import accuracy_score, classification_report
 # STREAMLIT PAGE CONFIG
 # ----------------------------------------------------
 st.set_page_config(page_title="Ecosystem Health Monitoring", layout="wide")
-st.title("🌿 Ecosystem Health Monitoring System")
+st.title("🌿 Ecosystem Health Monitoring")
 
 # ----------------------------------------------------
 # FILE PATHS FOR MODELS
@@ -397,7 +397,8 @@ elif page == "About":
     ---
 
     ### 👨‍💻 Developed By
-    **Priyal Choudhary / BCA 5th Semester(TECNIA INSTITUTE OF ADVANCED STUDIES)**
+    **Priyal Choudhary / BCA 5th Semester
+    (TECNIA INSTITUTE OF ADVANCED STUDIES)**
 
     """)
 
