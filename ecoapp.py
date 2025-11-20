@@ -402,4 +402,4 @@ elif page == "About":
 
     """)
 
-    st.success("Thank you for using the Ecosystem Health Monitoring System! 🌱")
+    st.success("Thank you for using the Ecosystem Health Prediction in Desert & Aquatic Environments! 🌱")
