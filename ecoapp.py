@@ -35,7 +35,7 @@ from sklearn.metrics import accuracy_score, classification_report
 # STREAMLIT PAGE CONFIG
 # ----------------------------------------------------
 st.set_page_config(page_title="Ecosystem Health Prediction in Desert & Aquatic Environments", layout="wide")
-st.title("🌿 Ecosystem Health Prdiction in Desert & Aquatic Environments")
+st.title("🌿 Ecosystem Health Prediction in Desert & Aquatic Environments")
 
 # ----------------------------------------------------
 # FILE PATHS FOR MODELS
