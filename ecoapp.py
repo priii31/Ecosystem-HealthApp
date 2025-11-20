@@ -8,7 +8,7 @@ Original file is located at
 """
 
 # =============================
-# Ecosystem Health Monitoring 
+# Ecosystem Health Prediction in desert and aquatic environments
 # =============================
 
 import streamlit as st
@@ -34,8 +34,8 @@ from sklearn.metrics import accuracy_score, classification_report
 # ----------------------------------------------------
 # STREAMLIT PAGE CONFIG
 # ----------------------------------------------------
-st.set_page_config(page_title="Ecosystem Health Monitoring", layout="wide")
-st.title("🌿 Ecosystem Health Monitoring")
+st.set_page_config(page_title="Ecosystem Health Prediction in Desert & Aquatic Environments", layout="wide")
+st.title("🌿 Ecosystem Health Prdiction in Desert & Aquatic Environments")
 
 # ----------------------------------------------------
 # FILE PATHS FOR MODELS
@@ -370,7 +370,7 @@ elif page == "About":
     st.header("ℹ️ About This Project")
 
     st.markdown("""
-    ### 🌿 Ecosystem Health Monitoring System
+    ### 🌿 Ecosystem Health Prediction in Desrt & Aquatic Environments Using MLP Neural Networks
     This Streamlit application analyzes environmental sensor data to assess the health of an ecosystem using
     **Machine Learning, Data Visualization, and Real-Time IoT Simulation**.
 
@@ -397,8 +397,8 @@ elif page == "About":
     ---
 
     ### 👨‍💻 Developed By
-    **Priyal Choudhary / BCA 5th Semester
-    (TECNIA INSTITUTE OF ADVANCED STUDIES)**
+    **Priyal Choudhary / BCA 5th Semester**
+    **(TECNIA INSTITUTE OF ADVANCED STUDIES)**
 
     """)
 
